@@ -22,26 +22,26 @@ Click the button, say a command like "open YouTube", and watch the assistant res
 
 # How It Works
 
-## 1) Speech Recognition:
-Uses webkitSpeechRecognition or SpeechRecognition to listen to your voice.
+ 1) Speech Recognition:
+    Uses webkitSpeechRecognition or SpeechRecognition to listen to your voice.
 
-## 2) Command Handling:
-Converts spoken text into commands using handlecommands() function.
+ 2) Command Handling:
+    Converts spoken text into commands using handlecommands() function.
 
-### 3) Recognizes commands like:
+   ** Recognizes commands like:**
 
-"open youtube"
+    "open youtube"
+    
+    "open facebook"
+    
+    "open instagram"
+    
+    "open github"
 
-"open facebook"
+    If command doesn’t match predefined actions, performs a Google search.
 
-"open instagram"
-
-"open github"
-
-### If command doesn’t match predefined actions, performs a Google search.
-
-## 3) Speech Feedback:
-Uses SpeechSynthesisUtterance to respond to the user with voice.
+  3) Speech Feedback:
+     Uses SpeechSynthesisUtterance to respond to the user with voice.
 
 # Screesshort:
-<img width="900" height="625" alt="Screenshot 2025-09-18 011223" src="https://github.com/user-attachments/assets/ddf441ad-230a-43b3-884a-733b5af36b22" />
+  <img width="900" height="625" alt="Screenshot 2025-09-18 011223" src="https://github.com/user-attachments/assets/ddf441ad-230a-43b3-884a-733b5af36b22" />
